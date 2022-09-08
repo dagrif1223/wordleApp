@@ -177,12 +177,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
-        android:layout_marginBottom="84dp"
-        android:text="The correct word was: "
+        android:layout_marginBottom="80dp"
+        android:text="Too bad! The correct word was: "
         android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/txt_guess"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:visibility="visible" />
 
@@ -195,10 +195,10 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/txt_fail"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintVertical_bias="0.774"
         tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

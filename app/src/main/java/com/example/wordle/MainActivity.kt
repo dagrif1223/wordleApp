@@ -43,8 +43,10 @@ class MainActivity : AppCompatActivity() {
                     findViewById<TextView>(R.id.txt_word1).setText(word1)
                     findViewById<TextView>(R.id.txt_result1).setText(checkGuess(word1))
                     findViewById<EditText>(R.id.txt_guess).getText().clear()
-                    fail_txt.setText("Congratulations! That's the correct word!")
+                    fail_txt.setText("Congratulations! The correct word was:")
+                    word_correct.setText(target_word)
                     fail_txt.visibility = View.VISIBLE
+                    word_correct.visibility = View.VISIBLE
                     findViewById<Button>(R.id.btn_guess).setBackgroundColor(Color.GRAY)
                     findViewById<Button>(R.id.btn_guess).setClickable(false)
                 }
@@ -61,8 +63,10 @@ class MainActivity : AppCompatActivity() {
                     findViewById<TextView>(R.id.txt_word2).setText(word2)
                     findViewById<TextView>(R.id.txt_result2).setText(checkGuess(word2))
                     findViewById<EditText>(R.id.txt_guess).getText().clear()
-                    fail_txt.setText("Congratulations! That's the correct word!")
+                    fail_txt.setText("Congratulations! The correct word was: ")
+                    word_correct.setText(target_word)
                     fail_txt.visibility = View.VISIBLE
+                    word_correct.visibility = View.VISIBLE
                     findViewById<Button>(R.id.btn_guess).setBackgroundColor(Color.GRAY)
                     findViewById<Button>(R.id.btn_guess).setClickable(false)
                 }
@@ -83,7 +87,8 @@ class MainActivity : AppCompatActivity() {
                     findViewById<TextView>(R.id.txt_word3).setText(word3)
                     findViewById<TextView>(R.id.txt_result3).setText(checkGuess(word3))
                     findViewById<EditText>(R.id.txt_guess).getText().clear()
-                    fail_txt.setText("Congratulations! That's the correct word!")
+                    fail_txt.setText("Congratulations! The correct word was: ")
+                    word_correct.visibility = View.VISIBLE
                     fail_txt.visibility = View.VISIBLE
                     findViewById<Button>(R.id.btn_guess).setBackgroundColor(Color.GRAY)
                     findViewById<Button>(R.id.btn_guess).setClickable(false)
