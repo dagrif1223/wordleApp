@@ -39,7 +39,6 @@ GIF created with imgur
 
 ## Notes
 
-Describe any challenges encountered while building the app.
 Had challenges with the button code of the app.
 
 ## License
